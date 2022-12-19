@@ -5,7 +5,7 @@
   font-family: "Sofia", sans-serif;
 }
 body {
-  background-color: rgb(18, 113, 191);
+  background-color: #9cc0fa;
 }
 .container {
   position: relative;
@@ -102,4 +102,23 @@ h1 {
   top: 80px;
   left: 90px;
   z-index: 2;
+}
+
+.cs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: crimson;
+  width: 50px;
+  height: 80px;
+  border-radius: 8px;
+  z-index: 50;
+  right: -15px;
+  top: 100px;
+  box-shadow: 1px 5px 15px rgb(69, 68, 68);
+}
+
+.cs:hover {
+  right: -10px;
 }
