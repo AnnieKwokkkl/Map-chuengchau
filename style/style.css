@@ -91,6 +91,11 @@ p {
   right: 270px;
 }
 
+#location5 {
+  bottom: 70px;
+  left: 425px;
+}
+
 .animation {
   width: 300px;
   height: 300px;
