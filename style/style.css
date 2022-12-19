@@ -96,6 +96,12 @@ p {
   left: 425px;
 }
 
+#restaurant {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
 .animation {
   width: 300px;
   height: 300px;
