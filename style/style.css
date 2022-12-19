@@ -105,6 +105,18 @@ p {
   opacity: 0.8;
 }
 
+.girl{
+  color: rgb(197, 11, 221);
+  position: fixed;
+  top: 310px;
+  left: 630px;
+  font-size: 25px;
+}
+
+#walking{
+  font-size: 18px;
+}
+
 h1 {
   position: absolute;
   top: 80px;
