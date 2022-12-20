@@ -91,6 +91,24 @@ p {
   right: 270px;
 }
 
+#location4 {
+  top: 150px;
+  left: 500px;
+}
+
+.girl{
+  color: rgb(197, 11, 221);
+  position: fixed;
+  top: 310px;
+  left: 630px;
+  font-size: 25px;
+}
+
+#walking{
+  font-size: 18px;
+}
+
+
 #location5 {
   bottom: 70px;
   left: 425px;
