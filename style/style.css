@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #1271bf;
+  background-color: #9cc0fa;
 }
 
 .container {
@@ -139,16 +139,15 @@ p {
   right: 20px;
 }
 
-
-.videos{
+.videos {
   position: relative;
   top: 400px;
   display: none;
 }
 
-#location7{
+#location7 {
   top: 240px;
-  right: 560px;;
+  right: 560px;
 }
 
 .animation {
@@ -199,13 +198,13 @@ h1 {
   justify-content: space-between;
   font-size: 20px;
   font-weight: 500;
-  background-color:  #eee;
+  background-color: #eee;
   padding: 12px 30px;
-  list-style-type: none;  
+  list-style-type: none;
   flex: 1 1 auto;
 }
 
-[href]{
+[href] {
   color: black;
-  text-decoration: none
+  text-decoration: none;
 }
