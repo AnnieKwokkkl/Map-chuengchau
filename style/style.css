@@ -98,8 +98,13 @@ p {
 
 #location7{
   top: 240px;
-  right: 560px;;
->>>>>>> 0200944d03ff5aaefb80aacdfebf7de826cb2e58
+  right: 560px;
+}
+
+.videos{
+  position: relative;
+  top: 400px;
+  display: none;
 }
 
 .animation {
