@@ -111,6 +111,7 @@ p {
   right: 270px;
 }
 
+
 #location5 {
   bottom: 70px;
   left: 425px;
@@ -130,7 +131,7 @@ p {
 
 #location7{
   top: 240px;
-  right: 560px;;
+  right: 560px;
 }
 
 .animation {
@@ -140,6 +141,18 @@ p {
   bottom: -80px;
   left: 0;
   opacity: 0.8;
+}
+
+.girl{
+  color: rgb(197, 11, 221);
+  position: fixed;
+  top: 310px;
+  left: 630px;
+  font-size: 25px;
+}
+
+#walking{
+  font-size: 18px;
 }
 
 .animation2 {
