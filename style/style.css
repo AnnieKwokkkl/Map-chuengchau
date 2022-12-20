@@ -132,7 +132,7 @@ h1 {
 /*# sourceMappingURL=style.css.map */
 
 
-ul {
+.barlist {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
