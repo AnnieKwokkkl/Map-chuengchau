@@ -102,6 +102,18 @@ p {
   right: 20px;
 }
 
+
+.videos{
+  position: relative;
+  top: 400px;
+  display: none;
+}
+
+#location7{
+  top: 240px;
+  right: 560px;;
+}
+
 .animation {
   width: 300px;
   height: 300px;
