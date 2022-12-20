@@ -133,11 +133,17 @@ h1 {
 
 
 ul {
-  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
   background-color:  #eee;
-  padding: 8px 0 ;
+  padding: 12px 30px;
+  list-style-type: none;  
   display: flex;
   flex: 1 1 auto;
-  font-size: 20px;
-  font-style: bold;
+  justify-content: space-between;
+}
+
+[href]{
+  color: black;
+  text-decoration: none
 }
