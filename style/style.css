@@ -128,9 +128,11 @@ p {
 
 
 .videos{
+  padding: 15px;
   position: relative;
   top: 400px;
   display: none;
+  background-color: aqua;
 }
 
 #location7{
@@ -198,7 +200,7 @@ h1 {
   right: -10px;
 }
 /*# sourceMappingURL=style.css.map */
-ul {
+.barlist{
   display: flex;
   justify-content: space-between;
   font-size: 20px;
