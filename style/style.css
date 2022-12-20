@@ -133,12 +133,6 @@ p {
   left: 425px;
 }
 
-#restaurant {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-}
-
 .videos {
   position: relative;
   top: 400px;
@@ -158,6 +152,12 @@ p {
   left: 0;
   opacity: 0.8;
 }
+
+.animation2 {
+  position: fixed;
+  top: 40px;
+  right: 20px;
+  }
 
 h1 {
   position: absolute;
