@@ -91,6 +91,17 @@ p {
   right: 270px;
 }
 
+#location5 {
+  bottom: 70px;
+  left: 425px;
+}
+
+#location7{
+  top: 240px;
+  right: 560px;;
+>>>>>>> 0200944d03ff5aaefb80aacdfebf7de826cb2e58
+}
+
 .animation {
   width: 300px;
   height: 300px;
@@ -98,6 +109,12 @@ p {
   bottom: -80px;
   left: 0;
   opacity: 0.8;
+}
+
+.animation2 {
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
 h1 {
