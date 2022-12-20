@@ -189,20 +189,20 @@ h1 {
 header {
   z-index: 99;
   width: 100%;
-  background-color: #eee;
   position: fixed;
   top: 0;
   box-shadow: 1px 1px 10px #333;
 }
 
 .barlist {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 12px 30px;
   font-size: 20px;
   font-weight: 500;
   list-style: none;
+  width: 100%;
+  background-color: #eee;
 }
 
 [href] {
