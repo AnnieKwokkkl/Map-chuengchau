@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Sofia", sans-serif;
 }
 
@@ -25,8 +25,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 200px;
   height: 200px;
 }
@@ -56,11 +56,11 @@ p {
 
 .box {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: absolute;
   background-color: white;
   width: 200px;
@@ -74,6 +74,26 @@ p {
   position: absolute;
   top: 0px;
   display: none;
+  -webkit-animation: fade-in 0.5s ease;
+  animation: fade-in 0.5s ease;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #location1 {
@@ -96,7 +116,7 @@ p {
   left: 500px;
 }
 
-.girl{
+.girl {
   color: rgb(197, 11, 221);
   position: fixed;
   top: 310px;
@@ -104,17 +124,16 @@ p {
   font-size: 25px;
 }
 
-#walking{
+#walking {
   font-size: 18px;
 }
-
 
 #location5 {
   bottom: 70px;
   left: 425px;
 }
 
-#location7{
+#location7 {
   top: 240px;
   right: 560px;
 }
@@ -141,3 +160,29 @@ h1 {
   z-index: 2;
 }
 /*# sourceMappingURL=style.css.map */
+
+.cs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  background-color: crimson;
+  width: 50px;
+  height: 80px;
+  border-radius: 8px;
+  z-index: 50;
+  right: -15px;
+  top: 100px;
+  -webkit-box-shadow: 1px 5px 15px #454444;
+  box-shadow: 1px 5px 15px #454444;
+}
+
+.cs:hover {
+  right: -10px;
+}
